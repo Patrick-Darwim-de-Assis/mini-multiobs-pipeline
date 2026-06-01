@@ -1,0 +1,16 @@
+venv/
+.venv/
+env/
+
+pycache/
+*.pyc
+
+.gcloud/
+credentials.json
+data/raw/
+data/processed/
+
+.streamlit/
+
+google cloud credentials.txt
+duvidas sobre perguntas na entrevista.txt
