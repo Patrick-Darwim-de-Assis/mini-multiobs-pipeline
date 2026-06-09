@@ -28,7 +28,7 @@ A lightweight, robust data engineering pipeline built in Python to programmatica
 
 1. **Clone the Repository:**
 ```bash
-   git clone [https://github.com/Patrick-Darwim-de-Assis/mini-multiobs-pipeline.git]
+   git clone [https://github.com/Patrick-Darwim-de-Assis/mini-multiobs-pipeline.git](https://github.com/Patrick-Darwim-de-Assis/mini-multiobs-pipeline.git)
    cd mini-multiobs-pipeline
 
 ```
