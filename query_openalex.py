@@ -7,7 +7,6 @@ os.environ["NPY_DISABLE_CPU_FEATURES"] = "X86_V2"
 warnings.filterwarnings("ignore", category=UserWarning)
 
 from google.cloud import bigquery
-import pandas as pd
 
 def run_openalex_pipeline():
     print("[1/4] Initializing BigQuery Client...")
