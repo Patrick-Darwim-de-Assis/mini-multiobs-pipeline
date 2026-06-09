@@ -16,6 +16,7 @@ A lightweight, robust data engineering pipeline built in Python to programmatica
 ## 🛠️ Tech Stack & Hardware Constraints
 
 * **Language:** Python 3.11 (Tested and Verified)
+* **Operating System:** Windows Environment
 * **Cloud Platform:** Google Cloud Platform (BigQuery)
 * **Dataset:** `bigquery-public-data.usa_names.usa_1910_current`
 * **Target Hardware Profile:** Legacy x86 system architectures (e.g., Core 2 Duo / Gigabyte Chipsets)
@@ -38,8 +39,8 @@ A lightweight, robust data engineering pipeline built in Python to programmatica
    # Create the isolated environment
    python -m venv stable_pipeline_env
 
-   # Activate on Windows (PowerShell)
-   .\stable_pipeline_env\Scripts\Activate.ps1
+   # Activate on Windows
+   .\stable_pipeline_env\Scripts\Activate
 
 ```
 
