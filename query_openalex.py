@@ -13,19 +13,22 @@ def run_openalex_pipeline():
     print("[1/4] Initializing BigQuery Client...")
     client = bigquery.Client()
 
-    sql_query = """
-    SELECT 
-        state,
-        gender,
-        year,
-        name,
-        number
-    FROM 
-        `bigquery-public-data.usa_names.usa_1910_current`
-    LIMIT 5
-    """
+    #sql_query = """
+    #SELECT 
+    #    state,
+    #    gender,
+    #     year,
+    #     name,
+    #     number
+    # FROM 
+    #     `bigquery-public-data.usa_names.usa_1910_current`
+    # LIMIT 5
+    # """
 
     print("[2/4] Executing pipeline query on Google Cloud...")
+    with open("query.sql", "r", encoding="utf-8") as f:
+        sql_query = f.read()
+    
     query_job = client.query(sql_query)
 
     #print("[3/5] Formatting results into a clean DataFrame...")

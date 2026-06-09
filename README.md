@@ -80,6 +80,7 @@ python query_openalex.py
 ## 📂 Project Architecture
 
 * `query_openalex.py` - Core execution script containing cloud queries, stream consumers, and file-writing logic.
+* `query.sql` - Externalized SQL query file targeting the Google BigQuery public names dataset.
 * `.gitignore` - Protects sensitive local database structures and cloud authorization JSON keys from leaking.
 * `openalex_extracted_data.csv` - Local output storage containing the extracted US Baby Names data schema.
 
